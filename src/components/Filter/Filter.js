@@ -4,7 +4,7 @@ import styles from './Filter.module.css';
 const Filter = ({ value, onChangeFilter }) => (
   <div className={styles.div}>
     <label className={styles.label}>
-      Фильтр по имени
+      Search contact's name
       <input
         className={styles.input}
         name="filter"
